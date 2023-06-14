@@ -1,0 +1,30 @@
+.about {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 0 15%;
+    text-align: justify;
+}
+
+.about h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+.fact-grid
+}
+
+.fact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 15%;
+    margin-bottom: 50px;
+}
+.fact{
+    text-align: center;
+    width: 95%;
+}
+.fact-gridaskdfjafmpj[mngsm nfbm ]}
