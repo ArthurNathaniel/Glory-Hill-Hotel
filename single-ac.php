@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <?php include 'cdn.php' ?>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="rooms.css">
 </head>
 
 <body>
@@ -25,8 +25,16 @@
                 <div class="swiper-slide">
                     <img src="./images/hero.jpg" alt="">
                     <div class="swiper-text">
-                        <h3>ABOUT US</h3>
-                        <h1>A place to experience enjoy the life</h1>
+
+                        <h1>Queen Size</h1>
+
+
+                        <ul class="breadcrumb">
+                            <li><a href="index.php">Home</a></li>
+                            <li>Our Room Type</li>
+                            <li>Queen Size</li>
+                        </ul>
+
                     </div>
                 </div>
 
@@ -71,64 +79,76 @@
         </form>
     </section>
 
+    <section>
+        <div class="room-slide">
+            <section>
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide rooms-swiper">
+                            <img src="./images/room-one.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide rooms-swiper">
+                            <img src="./images/room-two.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide rooms-swiper">
+                            <img src="./images/room-three.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide rooms-swiper">
+                            <img src="./images/room-four.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide rooms-swiper">
+                            <img src="./images/room-five.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
 
     <section>
-        <div class="about">
-            <h1>About Us</h1>
+        <div class="description">
+            <h1>Description</h1>
             <p>
-                Welcome to Glory Hills Hotel, your perfect destination for a luxurious and memorable stay.
-                Situated in the heart of breathtaking natural landscapes, we offer a tranquil retreat for
-                both business and leisure travelers.
+                Welcome to our comfortable Single Bed room, perfect for solo travelers. This room offers a cozy and snug single bed, providing a peaceful and restful sleep experience.
                 <br>
-                At Glory Hills Hotel, we pride ourselves on providing exceptional service and ensuring utmost
-                comfort for our guests. Our dedicated team of professionals is committed to creating an
-                unforgettable experience during your stay with us.
+                Stay cool and comfortable with the provided air conditioner, allowing you to adjust the temperature to your liking and ensure a pleasant stay.
                 <br>
-                Our hotel boasts a wide range of modern and elegantly furnished rooms, catering to the diverse
-                needs of our guests. From spacious suites to cozy single rooms, each accommodation option is
-                designed to provide a relaxing and rejuvenating ambiance.
+                The attached washroom provides convenience and privacy, equipped with all the necessary amenities to meet your personal hygiene needs.
                 <br>
-                Indulge in our world-class amenities, including a state-of-the-art fitness center, rejuvenating
-                spa, and exquisite dining options. Whether you're looking to unwind by the poolside, host a
-                successful business conference, or explore the local attractions, we have you covered.
+                A wardrobe is available in the room, allowing you to store your belongings and keep your room organized during your stay.
                 <br>
-                At Glory Hills Hotel, we prioritize sustainability and eco-friendly practices. We are dedicated
-                to reducing our environmental impact while ensuring the highest standards of comfort and luxury
-                for our guests.
+                For your convenience, a table and chair set is provided, creating a functional workspace or a comfortable spot for enjoying meals or working on your laptop.
                 <br>
-                Experience our warm hospitality and immerse yourself in the beauty of Glory Hills. We look forward
-                to welcoming you and creating cherished memories during your stay at our hotel.
+                Unwind and relax as you watch your favorite shows on the TV, offering a range of entertainment options for your leisure time.
                 <br>
-                Feel free to use this text as a starting point and make any necessary adjustments to fit the
-                specific details and style of Glory Hills Hotel.
+                Experience a cozy and convenient stay in our Single Bed room, where comfort and functionality blend harmoniously to ensure a delightful experience for our guests.
             </p>
         </div>
     </section>
 
     <section>
-        <div class="fact-title text-center">
-            <h3>Numbers Fact</h3>
-        </div>
-        <div class="fact-grid">
-            <div class="fact">
-                <h1>500</h1>
-                <p>Clients</p>
+        <div class="amenities">
+            <h1>Amenities</h1>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-circle-check"></i> Single Bed</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Air Conditioner</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Washroom</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-circle-check"></i> Wardrobe</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Table &amp; chair</li>
+                            <li><i class="fa-solid fa-circle-check"></i> TV</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="fact">
-                <h1>26</h1>
-                <p>Rooms</p>
-            </div>
-
-            <div class="fact">
-                <h1>50</h1>
-                <p>Staffs</p>
-            </div>
-
-            <div class="fact">
-                <h1>21</h1>
-                <p>Awards</p>
-            </div>
 
         </div>
     </section>
@@ -219,7 +239,15 @@
                     </div>
 
                 </div>
+
+
             </div>
+            <div class="book">
+                <button class="booking">
+                    BOOK NOW
+                </button>
+            </div>
+
         </div>
     </section>
 
@@ -280,6 +308,15 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev"
             }
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var zoomDiv = document.querySelector('.swiper-slide');
+
+            zoomDiv.addEventListener('click', function() {
+                this.classList.toggle('zoomed');
+            });
         });
     </script>
 

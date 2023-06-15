@@ -34,7 +34,7 @@
             <br>
         </div>
         <div class="footer-links">
-            <h1>CONTACT</h1>
+            <h1>CONTACT US</h1>
 
             <a href="https://www.google.com.gh/maps/place/Glory+Hill+Hotel/@6.6742676,-1.6372378,17z/data=!3m1!4b1!4m6!3m5!1s0xfdb9740ec9503db:0xb5c9da4102041bf!8m2!3d6.6742623!4d-1.6346629!16s%2Fg%2F11fr_5f9kz?entry=ttu" target="_blank"> <i class="fas fa-map-marker-alt"></i> Paul Adjei Duah Dr, Kumasi </a>
             <br>
