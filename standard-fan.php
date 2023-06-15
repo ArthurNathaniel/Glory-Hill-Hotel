@@ -23,16 +23,16 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/room-one.jpg" alt="">
+                    <img src="./images/room-five.jpg" alt="">
                     <div class="swiper-text">
 
-                        <h1>Suite Rooms</h1>
+                        <h1>Standard with Fan Room</h1>
 
 
                         <ul class="breadcrumb">
                             <li><a href="index.php">Home</a></li>
                             <li>Our Room Type</li>
-                            <li>Suite Rooms</li>
+                            <li>Standard with Fan</li>
                         </ul>
 
                     </div>
@@ -109,15 +109,23 @@
         <div class="description">
             <h1>Description</h1>
             <p>
-                Welcome to the Suite at Glory Hills Hotel. This luxurious room features a comfortable king size bed, perfect for a restful night's sleep. Stay cool and comfortable with the air conditioner, ensuring a pleasant atmosphere throughout your stay.
+                Welcome to our cozy room equipped with modern amenities for a comfortable stay. This room features
+                a ceiling fan to keep you cool and provide a gentle breeze throughout your time here.
                 <br>
-                The attached washroom provides convenience and privacy, equipped with essential amenities for your comfort. A spacious wardrobe is available to store your belongings and keep your room tidy.
+                The attached washroom offers convenience and privacy, equipped with all the necessary amenities to 
+                meet your personal hygiene needs.
                 <br>
-                For your convenience, a refrigerator is provided to store and preserve your food and beverages. A table and chair set are available, allowing you to work or enjoy meals comfortably.
+                A wardrobe is provided in the room, allowing you to store your belongings and keep your room 
+                organized during your stay.
                 <br>
-                Relax on the sofa and enjoy your favorite shows on the TV, offering a range of entertainment options.
+                For your convenience, a table and chair set is available, providing a functional workspace for any
+                tasks you may need to complete or a comfortable spot for enjoying meals.
                 <br>
-                Experience comfort and elegance in the Suite at Glory Hills Hotel.
+                Unwind and relax as you watch your favorite shows on the TV, offering a range of entertainment 
+                options for your leisure time.
+                <br>
+                Experience a cozy and convenient stay in our room, where comfort and functionality combine to 
+                create a pleasant atmosphere for our valued guests.
             </p>
         </div>
     </section>
@@ -129,17 +137,14 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="list-unstyled">
-                            <li><i class="fa-solid fa-circle-check"></i> King size bed</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Air conditioner</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Fan</li>
                             <li><i class="fa-solid fa-circle-check"></i> Washroom</li>
                             <li><i class="fa-solid fa-circle-check"></i> Wardrobe</li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="list-unstyled">
-                            <li><i class="fa-solid fa-circle-check"></i> Refrigerator</li>
                             <li><i class="fa-solid fa-circle-check"></i> Table &amp; chair</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Sofa</li>
                             <li><i class="fa-solid fa-circle-check"></i> TV</li>
                         </ul>
                     </div>

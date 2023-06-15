@@ -23,16 +23,16 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/hero.jpg" alt="">
+                    <img src="./images/room-four.jpg" alt="">
                     <div class="swiper-text">
 
-                        <h1>Queen Size</h1>
+                        <h1>Single with A/C Rooms</h1>
 
 
                         <ul class="breadcrumb">
                             <li><a href="index.php">Home</a></li>
                             <li>Our Room Type</li>
-                            <li>Queen Size</li>
+                            <li>Single with A/C</li>
                         </ul>
 
                     </div>

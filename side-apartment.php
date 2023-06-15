@@ -23,16 +23,16 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/room-one.jpg" alt="">
+                    <img src="./images/room-seven.jpg" alt="">
                     <div class="swiper-text">
 
-                        <h1>Suite Rooms</h1>
+                        <h1>Side Apartment</h1>
 
 
                         <ul class="breadcrumb">
                             <li><a href="index.php">Home</a></li>
                             <li>Our Room Type</li>
-                            <li>Suite Rooms</li>
+                            <li>Side Apartment</li>
                         </ul>
 
                     </div>
@@ -109,15 +109,26 @@
         <div class="description">
             <h1>Description</h1>
             <p>
-                Welcome to the Suite at Glory Hills Hotel. This luxurious room features a comfortable king size bed, perfect for a restful night's sleep. Stay cool and comfortable with the air conditioner, ensuring a pleasant atmosphere throughout your stay.
+                Welcome to our Side Apartment, designed to offer you a comfortable and convenient stay. 
+                This apartment features a standard bed, providing a cozy and restful sleep experience.
                 <br>
-                The attached washroom provides convenience and privacy, equipped with essential amenities for your comfort. A spacious wardrobe is available to store your belongings and keep your room tidy.
+                Stay cool and refreshed with the provided fan, ensuring a pleasant airflow throughout your
+                time in the apartment.
                 <br>
-                For your convenience, a refrigerator is provided to store and preserve your food and beverages. A table and chair set are available, allowing you to work or enjoy meals comfortably.
+                The attached washroom offers convenience and privacy, equipped with all the necessary amenities
+                for your personal hygiene needs.
                 <br>
-                Relax on the sofa and enjoy your favorite shows on the TV, offering a range of entertainment options.
+                A wardrobe is available in the apartment, allowing you to store your belongings and keep your 
+                space organized during your stay.
                 <br>
-                Experience comfort and elegance in the Suite at Glory Hills Hotel.
+                For your convenience, a table and chair set is provided, creating a functional workspace or a 
+                comfortable spot to enjoy your meals.
+                <br>
+                Unwind and relax as you watch your favorite shows on the TV, providing a range of entertainment
+                options for your leisure time.
+                <br>
+                Experience a comfortable and enjoyable stay in our Side Apartment, where comfort and functionality
+                come together to ensure a delightful experience for our valued guests.
             </p>
         </div>
     </section>
@@ -129,17 +140,15 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="list-unstyled">
-                            <li><i class="fa-solid fa-circle-check"></i> King size bed</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Air conditioner</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Standard Bed </li>
+                            <li><i class="fa-solid fa-circle-check"></i> Fan</li>
                             <li><i class="fa-solid fa-circle-check"></i> Washroom</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Wardrobe</li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="list-unstyled">
-                            <li><i class="fa-solid fa-circle-check"></i> Refrigerator</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Wardrobe</li>
                             <li><i class="fa-solid fa-circle-check"></i> Table &amp; chair</li>
-                            <li><i class="fa-solid fa-circle-check"></i> Sofa</li>
                             <li><i class="fa-solid fa-circle-check"></i> TV</li>
                         </ul>
                     </div>

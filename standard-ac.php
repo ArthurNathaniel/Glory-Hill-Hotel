@@ -23,7 +23,7 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/hero.jpg" alt="">
+                    <img src="./images/room-three.jpg" alt="">
                     <div class="swiper-text">
 
                         <h1>Standard with A/C </h1>

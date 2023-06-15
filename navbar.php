@@ -15,16 +15,16 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Room Type<i class="fas fa-angle-down"></i>
+                        Room Types<i class="fas fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="suite-rooms.php">Suite Rooms</a></li>
                         <li><a class="dropdown-item" href="queen-size.php">Queen Size Rooms</a></li>
                         <li><a class="dropdown-item" href="standard-ac.php">Standard with A/C Rooms</a></li>
                         <li><a class="dropdown-item" href="single-ac.php">Single with A/C Rooms</a></li>
-                        <li><a class="dropdown-item" href="">Standard with Fan Rooms</a></li>
-                        <li><a class="dropdown-item" href="">Single with Fan Rooms</a></li>
-                        <li><a class="dropdown-item" href="">Side Apartment</a></li>
+                        <li><a class="dropdown-item" href="standard-fan.php">Standard with Fan Rooms</a></li>
+                        <li><a class="dropdown-item" href="single-fan.php">Single with Fan Rooms</a></li>
+                        <li><a class="dropdown-item" href="side-apartment.php">Side Apartment</a></li>
 
                     </ul>
                 </li>
