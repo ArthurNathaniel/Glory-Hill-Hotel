@@ -64,7 +64,7 @@
 
                 <div class="reservation-button">
                     <button type="submit">
-                        BOOK NOW
+                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
                     </button>
                 </div>
             </div>
@@ -90,7 +90,7 @@
 
                 <div class="reservation-button">
                     <button type="submit">
-                        BOOK NOW
+                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
                     </button>
                 </div>
             </div>
@@ -116,7 +116,7 @@
 
                 <div class="reservation-button">
                     <button type="submit">
-                        BOOK NOW
+                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
                     </button>
                 </div>
             </div>
@@ -142,7 +142,7 @@
 
                 <div class="reservation-button">
                     <button type="submit">
-                        BOOK NOW
+                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
                     </button>
                 </div>
             </div>
@@ -168,7 +168,7 @@
 
                 <div class="reservation-button">
                     <button type="submit">
-                        BOOK NOW
+                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
                     </button>
                 </div>
             </div>
@@ -195,7 +195,7 @@
 
                 <div class="reservation-button">
                     <button type="submit">
-                        BOOK NOW
+                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
                     </button>
                 </div>
             </div>
@@ -221,7 +221,7 @@
 
                 <div class="reservation-button">
                     <button type="submit">
-                        BOOK NOW
+                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
                     </button>
                 </div>
             </div>

@@ -45,3 +45,41 @@
     width: 95%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+
+#forms{
+    display: block;
+    width: 100%;
+    border: 2px solid tomato;
+}
+
+
+
+.check{
+    margin-bottom: 0px;
+}
+
+.formss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 5%;
+}
+
+.formss input , .formss select {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    margin-top: 10px;
+}

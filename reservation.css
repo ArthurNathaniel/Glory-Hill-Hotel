@@ -20,7 +20,7 @@
 
 .reservation-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 1fr;
     background-color: #FFF;
     width: 70%;
     margin: 0 15%;
@@ -29,7 +29,7 @@
 }
 
 .reservation-suite {
-    width: 400px;
+    width: 100%;
     height: 250px;
     /* background-image: url(./images/room-one.jpg); */
     background-position: center;
@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 20%;
+    width: 80%;
 }
 
 .reservation-button button{

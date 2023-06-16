@@ -42,43 +42,7 @@
         </div>
     </section>
 
-    <section id="form">
-        <form action="" class="form">
-            <div class="check">
-                <label>CHECK IN</label>
-                <input type="date" class="form-control" id="check-in" name="check-in" required>
-            </div>
-            <div class="check">
-                <label>CHECK OUT</label>
-                <input type="date" class="form-control" id="check-in" name="check-in" required>
-            </div>
-            <div class="check">
-                <label>GUEST</label>
-                <input type="number" min="0">
-            </div>
-            <div class="check">
-                <label for="room-type">ROOM TYPE</label>
-                <select id="room-type" name="room-type">
-                    <option value="suite">Suite Rooms</option>
-                    <option value="queen">Queen Size Rooms</option>
-                    <option value="ac-standard">Standard with A/C Rooms</option>
-                    <option value="ac-single">Single with A/C Rooms</option>
-                    <option value="fan-standard">Standard with Fan Rooms</option>
-                    <option value="fan-single">Single with Fan Rooms</option>
-                    <option value="side-apartment">Side Apartment</option>
-                </select>
-            </div>
-
-            <div class="ava">
-                <button>
-                    Check Avaliability
-                </button>
-            </div>
-
-
-        </form>
-    </section>
-
+    <?php include 'booking.php'; ?>
     <section>
         <div class="room-slide">
             <section>
@@ -99,6 +63,18 @@
                         <div class="swiper-slide rooms-swiper">
                             <img src="./images/room-five.jpg" alt="">
                         </div>
+                    </div>
+                    <div class="amount">
+                        <h1>
+                            START FROM
+                            <span>GH₵ 120.00 </span>
+                            <b> / PER NIGHT</b>
+                        </h1>
+                    </div>
+                    <div class="books">
+                        <button class="booking">
+                            <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW</a>
+                        </button>
                     </div>
                 </div>
             </section>
@@ -246,11 +222,10 @@
 
         </div>
     </section>
-
     <section>
         <?php include 'footer.php'; ?>
     </section>
-
+    <!-- <script src="index.js"></script> -->
     <script>
         const roomImgs = document.querySelectorAll('.room-img');
         const roomsDisplay = document.querySelector('.rooms-display');
@@ -269,9 +244,26 @@
     <script>
         flatpickr("#check-in", {
             minDate: "today",
-            dateFormat: "Y-m-d",
-            disableMobile: true
+            altFormat: "J F Y",
+            altInput: true,
+            mode: 'range',
+            disableMobile: false
         });
+
+        calculateTotalPrice = (form_event) => {
+            // console.log(form.reset());
+            form_event.preventDefault();
+            const form = form_event.target;
+            const date_in = form.elements[1]
+            console.log(date_in)
+            if (date_in.value.length < 1) {
+                date_in.style.border = '3px solid salmon'
+                date_in.placeholder = 'Pick a Date'
+            } else {
+                form.submit()
+            }
+            // form.checkValidity()
+        }
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -289,11 +281,12 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
+            speed: 8000,
             loop: true,
             spaceBetween: 30,
             centeredSlides: true,
             autoplay: {
-                delay: 2500,
+                delay: 4500,
                 disableOnInteraction: false
             },
             pagination: {

@@ -75,6 +75,10 @@ body {
 .swiper {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .swiper-slide {
@@ -85,36 +89,54 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
+    animation: zoomInOut 5s infinite alternate;
 }
-
+.swiper-slide:hover{
+    transform: scale(1.2);
+}
 .swiper-slide img {
     display: block;
     width: 100%;
     height: 700px;
     object-fit: cover;
     display: block;
-    
-        transition: transform 0.3s ease;
+    transform: scale(1);
+    transition: transform 0.5s;
 }
 
 
 .swiper-slide.zoomed img {
-    transform: scale(1.2);
+    transform: scale(0.7);
     /* Increase the scale factor to zoom in more */
     cursor: zoom-out;
 }
+
 .swiper-text {
     position: absolute;
     margin-bottom: 50px;
     color: #FEFEFE;
     text-shadow: 0.5px 0.5px 1px #00000060;
+    z-index: 1000;
+    text-align: center;
 }
 
 .swiper-text h1 {
     font-size: 70px;
     font-family: 'Playfair Display', serif;
 }
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
 
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
 #form {
     position: absolute;
     width: 100%;
@@ -148,11 +170,12 @@ body {
     border-radius: 0px;
     width: 100%;
     height: 50px;
+    border-radius: 4px !important;
 }
 
 .check select {
     border: 1px solid #ccc;
-    border-radius: 0px;
+    border-radius: 4px !important;
     width: 100%;
     height: 50px;
     background-color: #FFF;
@@ -172,12 +195,14 @@ body {
 
 .ava button {
     height: 50px;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 100%;
     text-transform: uppercase;
     background-color: green;
     color: #FEFEFE;
     border: none;
+    border-radius: 4px !important;
+    font-size: 14px !important;
 }
 
 .about-bg {
@@ -520,9 +545,9 @@ footer {
     padding: 0 10%;
     padding-top: 80px;
     background-image: url(./images/footer_bg.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer {
@@ -554,4 +579,31 @@ footer {
 .footer-links {
     color: #fff;
     font-size: 18px;
+}
+
+.amount {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.amount h1 {
+    color: #adadad;
+    font-size: 20px;
+}
+
+.amount span {
+    color: #cb0002;
+    font-size: 40px;
+    font-weight: 700;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.books {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.amount b {
+    color: #000;
 }

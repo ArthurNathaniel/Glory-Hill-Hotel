@@ -12,6 +12,7 @@
             <div class="check">
                 <label>PHONE NUMBER</label>
                 <input type="number" min="0" id="number" name="number" placeholder="Enter your phone number" required>
+           
             </div>
             <div class="check">
                 <label for="guest">GUEST</label>

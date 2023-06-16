@@ -39,7 +39,53 @@
     <section>
         <div class="display-grid">
             <div class="display-form">
+                <form action="" class="formss">
+                    <div class="col-12">
+                        <label>CHECK IN & OUT:</label>
+                        <input type="date" class="form-control" id="check-in" name="check-in" placeholder="Check In & Out " required>
+                    </div>
+                    <div class="col-12">
+                        <label>NAME:</label>
+                        <br>
+                        <input type="text" placeholder="Enter your name" id="name" name="name" required>
+                    </div>
+                    <div class="col-12">
+                        <label>PHONE NUMBER:</label>
+                        <br>
+                        <input type="number" min="0" id="number" name="number" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="guest">GUEST:</label>
+                        <br>
+                        <select id="guest" name="guest" required>
+                            <option value="" disabled selected hidden>Number of Guest</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="room-type">ROOM TYPE:</label>
+                        <br>
+                        <select id="room-type" name="room-type" required>
+                            <option value="" disabled selected hidden>Select Room Type</option>
+                            <option value="Suite Rooms, 400">Suite Rooms</option>
+                            <option value="Queen Size Rooms, 300">Queen Size Rooms</option>
+                            <option value="Standard with A/C Rooms, 230">Standard with A/C Rooms</option>
+                            <option value="Single with A/C Rooms, 160">Single with A/C Rooms</option>
+                            <option value="Standard with Fan Rooms, 150">Standard with Fan Rooms</option>
+                            <option value="Single with Fan Rooms, 120">Single with Fan Rooms</option>
+                            <option value="Side Apartment, 120">Side Apartment</option>
+                        </select>
+                    </div>
 
+                    <div class="col-12">
+                        <button type="submit" value="Check Availability">
+                            Book Now
+                        </button>
+                    </div>
+                </form>
             </div>
             <div class="display-text">
 
