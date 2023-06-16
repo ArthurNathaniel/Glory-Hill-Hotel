@@ -27,7 +27,7 @@
                         <h5>WELCOME TO</h5>
                         <h1>Glory Hills Hotel</h1>
                         <p>
-                            A place to experience enjoy the life
+                            A place to experience & enjoy the life
                         </p>
                     </div>
                 </div>
@@ -37,50 +37,54 @@
                         <h5>WELCOME TO</h5>
                         <h1>Glory Hills Hotel</h1>
                         <p>
-                            A place to experience enjoy the life
+                            A place to experience & enjoy the life
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="form">
-        <form action="" class="form">
+<?php include './booking.php'; ?>
+    <!-- <section id="form">
+        <form action="display.php" method="get" class="form" onsubmit="calculateTotalPrice(event)">
             <div class="check">
-                <label>CHECK IN</label>
-                <input type="date" class="form-control" id="check-in" name="check-in" required>
+                <label>CHECK IN & OUT</label>
+                <input type="date" class="form-control" id="check-in" name="check-in" placeholder="Check In & Out " required>
             </div>
+            
             <div class="check">
-                <label>CHECK OUT</label>
-                <input type="date" class="form-control" id="check-in" name="check-in" required>
-            </div>
-            <div class="check">
-                <label>GUEST</label>
-                <input type="number" min="0">
+                <label for="guest">GUEST</label>
+                <select id="guest" name="guest" required>
+                    <option value="" disabled selected hidden>Number of Guest</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
             </div>
             <div class="check">
                 <label for="room-type">ROOM TYPE</label>
-                <select id="room-type" name="room-type">
-                    <option value="suite">Suite Rooms</option>
-                    <option value="queen">Queen Size Rooms</option>
-                    <option value="ac-standard">Standard with A/C Rooms</option>
-                    <option value="ac-single">Single with A/C Rooms</option>
-                    <option value="fan-standard">Standard with Fan Rooms</option>
-                    <option value="fan-single">Single with Fan Rooms</option>
-                    <option value="side-apartment">Side Apartment</option>
+                <select id="room-type" name="room-type" required>
+                    <option value="" disabled selected hidden>Select Room Type</option>
+                    <option value="Suite Rooms, 400">Suite Rooms</option>
+                    <option value="Queen Size Rooms, 300">Queen Size Rooms</option>
+                    <option value="Standard with A/C Rooms, 230">Standard with A/C Rooms</option>
+                    <option value="Single with A/C Rooms, 160">Single with A/C Rooms</option>
+                    <option value="Standard with Fan Rooms, 150">Standard with Fan Rooms</option>
+                    <option value="Single with Fan Rooms, 120">Single with Fan Rooms</option>
+                    <option value="Side Apartment, 120">Side Apartment</option>
                 </select>
             </div>
 
             <div class="ava">
-                <button>
-                    Check Avaliability
+                <button type="submit" value="Check Availability">
+                    Check Availability
                 </button>
             </div>
 
 
         </form>
-    </section>
+    </section>  -->
 
 
     <section>
@@ -319,7 +323,7 @@
     <section>
         <?php include 'footer.php'; ?>
     </section>
-
+    <!-- <script src="index.js"></script> -->
     <script>
         const roomImgs = document.querySelectorAll('.room-img');
         const roomsDisplay = document.querySelector('.rooms-display');
@@ -338,9 +342,26 @@
     <script>
         flatpickr("#check-in", {
             minDate: "today",
-            dateFormat: "Y-m-d",
-            disableMobile: true
+            altFormat: "J F Y",
+            altInput: true,
+            mode: 'range',
+            disableMobile: false
         });
+
+        calculateTotalPrice = (form_event) => {
+            // console.log(form.reset());
+            form_event.preventDefault();
+            const form = form_event.target;
+            const date_in = form.elements[1]
+            console.log(date_in)
+            if (date_in.value.length < 1) {
+                date_in.style.border = '3px solid salmon'
+                date_in.placeholder = 'Pick a Date'
+            } else {
+                form.submit()
+            }
+            // form.checkValidity()
+        }
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

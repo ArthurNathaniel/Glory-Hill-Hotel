@@ -7,10 +7,10 @@ body {
 
 .navbar {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding-left: 15%;
-    padding-right: 15%;
+    /* padding-left: 15%;
+    padding-right: 15%; */
     background-color: #FEFEFE;
-    font-weight: 500;
+    width: 100%;
 }
 
 
@@ -48,8 +48,8 @@ body {
 .navbar-logo {
     width: 100px;
     height: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-image: url(./images/logo.jpg);
     background-position: center;
     background-size: contain;
@@ -127,9 +127,9 @@ body {
     background-color: #FEFEFE;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 60%;
-    margin: 0 20%;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    width: 70%;
+    margin: 0 15%;
     margin-bottom: 50px;
     padding-left: 1%;
 }

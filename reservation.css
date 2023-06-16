@@ -1,0 +1,75 @@
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}  
+
+.reservation-bg {
+    padding-top: 180px;
+    padding-bottom: 80px;
+    background-color: #eeeeee;
+}
+
+.reservation-bg h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+.reservation-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    background-color: #FFF;
+    width: 70%;
+    margin: 0 15%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 50px;
+}
+
+.reservation-suite {
+    width: 400px;
+    height: 250px;
+    /* background-image: url(./images/room-one.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reservation-suite-title {
+    padding: 0 5%;
+    font-family: 'Playfair Display', serif;
+}
+
+.fa-star {
+    color: #f0b238;
+}
+
+.reservation-suite-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    align-self: left;
+    text-align: left;
+}
+
+.price span {
+    font-size: 30px;
+}
+
+.reservation-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20%;
+}
+
+.reservation-button button{
+    padding: 15px 35px;
+    color: #FFF;
+    background-color: green;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}

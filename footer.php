@@ -49,7 +49,7 @@
     </div>
 
     <div class="text-center " style="color:#fff;">
-    <hr>
+        <hr>
         <span>
             Copyright &copy;
             <script>
@@ -58,3 +58,4 @@
         </span>
     </div>
 </footer>
+

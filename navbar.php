@@ -34,7 +34,7 @@
                 </a>
 
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="">Reservation</a>
+                    <a class="nav-link" aria-current="page" href="reservation.php">Reservation</a>
                 </li>
 
 

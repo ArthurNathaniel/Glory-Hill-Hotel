@@ -33,8 +33,9 @@
             </div>
         </div>
     </section>
+    <?php include './booking.php'; ?>
 
-    <section id="form">
+    <!-- <section id="form">
         <form action="" class="form">
             <div class="check">
                 <label>CHECK IN</label>
@@ -69,7 +70,7 @@
 
 
         </form>
-    </section>
+    </section> -->
 
 
     <section>
@@ -242,12 +243,30 @@
         });
     </script>
 
+
     <script>
         flatpickr("#check-in", {
             minDate: "today",
-            dateFormat: "Y-m-d",
-            disableMobile: true
+            altFormat: "J F Y",
+            altInput: true,
+            mode: 'range',
+            disableMobile: false
         });
+
+        calculateTotalPrice = (form_event) => {
+            // console.log(form.reset());
+            form_event.preventDefault();
+            const form = form_event.target;
+            const date_in = form.elements[1]
+            console.log(date_in)
+            if (date_in.value.length < 1) {
+                date_in.style.border = '3px solid salmon'
+                date_in.placeholder = 'Pick a Date'
+            } else {
+                form.submit()
+            }
+            // form.checkValidity()
+        }
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
