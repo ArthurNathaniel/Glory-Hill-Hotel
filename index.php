@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body> 
+<body>
 
     <?php include 'navbar.php'; ?>
     <section>
@@ -165,15 +165,15 @@
             <h1 class="text-center">What We Offer</h1>
             <div class="offer-grid">
                 <div class="offer">
-                    <h1><i class="fas fa-hotel"></i></h1>
+                    <h1><i class="fas fa-hotel fa-beat"></i></h1>
                     <h3>Luxurious Accommodations</h3>
                 </div>
                 <div class="offer">
-                    <h1> <i class="fas fa-utensils"></i></h1>
+                    <h1> <i class="fas fa-utensils fa-beat"></i></h1>
                     <h3>Exquisite Eateries</h3>
                 </div>
                 <div class="offer">
-                    <h1><i class="fas fa-wifi"></i></h1>
+                    <h1><i class="fas fa-wifi fa-beat"></i></h1>
                     <h3>Seamless Connectivity</h3>
                 </div>
             </div>
