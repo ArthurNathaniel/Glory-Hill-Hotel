@@ -1,0 +1,29 @@
+.swiper-slide img{
+    height: 400px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 15%;
+    margin-top: 180px;
+}
+
+.one{
+    width: 95%;
+    height: 300px;
+    background-image: url(./images/room-one.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    border: 10px solid #eeeeee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+@media only screen and (max-width: 1192px) {
+    .gallery{
+        margin-top: 600px;
+        display: block;
+        padding-block: 50px;
+    }
+}

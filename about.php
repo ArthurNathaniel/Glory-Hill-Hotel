@@ -111,23 +111,23 @@
             <h3>Numbers Fact</h3>
         </div>
         <div class="fact-grid">
-            <div class="fact">
-                <h1>500</h1>
+            <div class="fact" data-max="300">
+                <h1></h1>
                 <p>Clients</p>
             </div>
 
-            <div class="fact">
-                <h1>26</h1>
+            <div class="fact" data-max="26">
+                <h1></h1>
                 <p>Rooms</p>
             </div>
 
-            <div class="fact">
-                <h1>50</h1>
+            <div class="fact" data-max="50">
+                <h1></h1>
                 <p>Staffs</p>
             </div>
 
-            <div class="fact">
-                <h1>21</h1>
+            <div class="fact" data-max="21">
+                <h1></h1>
                 <p>Awards</p>
             </div>
 
@@ -139,7 +139,22 @@
     <section>
         <?php include 'footer.php'; ?>
     </section>
+    <script>
+        const facts = document.querySelectorAll('.fact')
 
+        facts.forEach((fact, i) => {
+            sessionStorage.setItem(`val${i}`, 0)
+            setInterval(() => {
+                var maxList = parseInt(sessionStorage.getItem(`val${i}`))
+                if (maxList < fact.dataset.max) {
+                    var new_val = maxList + 1;
+                    sessionStorage.setItem(`val${i}`, new_val)
+                    fact.children[0].innerHTML = new_val + ' ' + '+'
+                    console.log(new_val)
+                }
+            }, 50)
+        })
+    </script>
     <script>
         const roomImgs = document.querySelectorAll('.room-img');
         const roomsDisplay = document.querySelector('.rooms-display');

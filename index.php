@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body> 
 
     <?php include 'navbar.php'; ?>
     <section>
-        <div class="swiper mySwiper">
+        <div class="swiper  mySwiper">
             <div class="swiper-text">
                 <h5>WELCOME TO</h5>
                 <h1>Glory Hills Hotel</h1>
@@ -29,65 +29,18 @@
             </div>
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
-                    <img src="./images/hero.jpg" alt="">
+                <div class="swiper-slide ani">
+                    <img src="./images/hero-one.jpg" alt="">
 
                 </div>
-                <div class="swiper-slide">
-                    <img src="./images/hero2.jpg" alt="">
-                    <!-- <div class="swiper-text">
-                        <h5>WELCOME TO</h5>
-                        <h1>Glory Hills Hotel</h1>
-                        <p>
-                            A place to experience & enjoy the life
-                        </p>
-                    </div> -->
+                <div class="swiper-slide ani">
+                    <img src="./images/hero-two.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
+
     <?php include './booking.php'; ?>
-    <!-- <section id="form">
-        <form action="display.php" method="get" class="form" onsubmit="calculateTotalPrice(event)">
-            <div class="check">
-                <label>CHECK IN & OUT</label>
-                <input type="date" class="form-control" id="check-in" name="check-in" placeholder="Check In & Out " required>
-            </div>
-            
-            <div class="check">
-                <label for="guest">GUEST</label>
-                <select id="guest" name="guest" required>
-                    <option value="" disabled selected hidden>Number of Guest</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-            </div>
-            <div class="check">
-                <label for="room-type">ROOM TYPE</label>
-                <select id="room-type" name="room-type" required>
-                    <option value="" disabled selected hidden>Select Room Type</option>
-                    <option value="Suite Rooms, 400">Suite Rooms</option>
-                    <option value="Queen Size Rooms, 300">Queen Size Rooms</option>
-                    <option value="Standard with A/C Rooms, 230">Standard with A/C Rooms</option>
-                    <option value="Single with A/C Rooms, 160">Single with A/C Rooms</option>
-                    <option value="Standard with Fan Rooms, 150">Standard with Fan Rooms</option>
-                    <option value="Single with Fan Rooms, 120">Single with Fan Rooms</option>
-                    <option value="Side Apartment, 120">Side Apartment</option>
-                </select>
-            </div>
-
-            <div class="ava">
-                <button type="submit" value="Check Availability">
-                    Check Availability
-                </button>
-            </div>
-
-
-        </form>
-    </section>  -->
-
 
     <section>
         <div class="about-bg">
@@ -127,6 +80,9 @@
                     <div class=" room-type">
                         <h3>Suite Rooms</h3>
                         GH₵ 400.00 per night
+                        <button>
+                            <a href="suite-rooms.php">BOOK NOW</a>
+                        </button>
                     </div>
                 </div>
                 <div class="rooms-detial">
@@ -135,6 +91,9 @@
                     <div class="room-type">
                         <h3>Queen Size Rooms</h3>
                         GH₵ 300.00 per night
+                        <button>
+                            <a href="queen-size.php">BOOK NOW</a>
+                        </button>
                     </div>
                 </div>
                 <div class="rooms-detial">
@@ -143,6 +102,9 @@
                     <div class="room-type">
                         <h3>Standard with A/C Rooms</h3>
                         GH₵ 230.00 per night
+                        <button>
+                            <a href="standard-ac.php">BOOK NOW</a>
+                        </button>
                     </div>
                 </div>
                 <div class="rooms-detial">
@@ -151,6 +113,9 @@
                     <div class="room-type">
                         <h3>Single bed with A/C Rooms</h3>
                         GH₵ 160.00 per night
+                        <button>
+                            <a href="single-ac.php">BOOK NOW</a>
+                        </button>
                     </div>
                 </div>
                 <div class="rooms-detial">
@@ -159,6 +124,9 @@
                     <div class="room-type">
                         <h3>Standard with Fan Rooms</h3>
                         GH₵ 150.00 per night
+                        <button>
+                            <a href="standard-fan.php">BOOK NOW</a>
+                        </button>
                     </div>
                 </div>
                 <div class="rooms-detial">
@@ -167,6 +135,9 @@
                     <div class="room-type">
                         <h3>Single bed with Fan Rooms</h3>
                         GH₵ 120.00 per night
+                        <button>
+                            <a href="single-fan.php">BOOK NOW</a>
+                        </button>
                     </div>
                 </div>
                 <div class="rooms-detial">
@@ -175,6 +146,9 @@
                     <div class="room-type">
                         <h3>Side Apartment</h3>
                         GH₵ 120.00 per night
+                        <button>
+                            <a href="side-apartment.php">BOOK NOW</a>
+                        </button>
                     </div>
                 </div>
             </div>

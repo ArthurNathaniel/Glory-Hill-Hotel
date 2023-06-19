@@ -1,0 +1,42 @@
+  .swiper-slide img {
+      height: 500px;
+  }
+
+  .contact-grid {
+      margin-top: 150px; 
+      padding: 0 10%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .three {
+      width: 95%;
+      padding: 0 10%;
+      padding-block: 30px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin-bottom: 50px;
+      text-align: center;
+  }
+
+ 
+
+  .three h2{
+    font-family: 'Playfair Display', serif;
+  
+  }
+
+  .three p a{
+    text-decoration: none;
+  }
+
+  .contact-c iframe{
+    margin-top:20px;
+    height: 85vh;
+  }
+
+@media only screen and (max-width: 1192px) {
+  .contact-grid{
+    margin-top: 650px;
+    display: block;
+  }
+}

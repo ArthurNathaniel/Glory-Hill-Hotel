@@ -41,12 +41,12 @@
 }
 
 .display-form {
-    border: 20px solid #eeeeee;
+    /* border: 10px solid #eeeeee; */
     width: 95%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-#forms{
+#forms {
     display: block;
     width: 100%;
     border: 2px solid tomato;
@@ -54,11 +54,11 @@
 
 
 
-.check{
+.check {
     margin-bottom: 0px;
 }
 
-.formss{
+.formss {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +66,8 @@
     padding: 0 5%;
 }
 
-.formss input , .formss select {
+.formss input,
+.formss select {
     height: 50px;
     width: 100%;
     margin-bottom: 10px;
@@ -75,11 +76,39 @@
     background-color: #fff;
 }
 
-button{
+.formss button {
     width: 100%;
-    height: 50px;
+    height: 60px;
     border: none;
     background-color: green;
     color: #fff;
     margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+@media only screen and (max-width: 1192px) {
+    .display-grid {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .display-form {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .display-text {
+        padding: 0 5%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+    .display-text h2{
+        font-size: 25px;
+    }
 }

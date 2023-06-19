@@ -7,29 +7,29 @@
         </a>
         <div class="footer-links">
             <h1>OUR ROOM TYPES</h1>
-            <a>Suite Rooms</a>
+            <a href="suite-rooms.php">Suite Rooms</a>
             <br>
             <br>
-            <a>Queen Size Rooms</a>
+            <a href="queen-size.php">Queen Size Rooms</a>
             <br>
             <br>
-            <a>Standard with A/C Rooms</a>
+            <a href="standard-ac.php">Standard with A/C Rooms</a>
             <br>
             <br>
-            <a>Single with A/C Rooms</a>
+            <a href="single-ac.php">Single with A/C Rooms</a>
             <br>
             <br>
 
         </div>
         <div class="footer-links">
             <h1>QUICK LINKS</h1>
-            <a>About Us</a>
+            <a href="about.php">About Us</a>
             <br>
             <br>
-            <a>Reservation</a>
+            <a href="reservation.php">Reservation</a>
             <br>
             <br>
-            <a>Photo Gallery</a>
+            <a href="photo-gallery.php">Photo Gallery</a>
             <br>
             <br>
         </div>
@@ -58,4 +58,3 @@
         </span>
     </div>
 </footer>
-

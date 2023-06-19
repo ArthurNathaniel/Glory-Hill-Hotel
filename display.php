@@ -25,7 +25,7 @@
                 <div class="swiper-slide">
                     <img src="./images/hero.jpg" alt="">
                     <div class="swiper-text">
-                        <h5>WELCOME TO GLORY HILLS HOTEL</h5>
+                       
                         <h1>BOOK NOW</h1>
                         <p>
                             A place to experience & enjoy the life
@@ -82,7 +82,7 @@
 
                     <div class="col-12">
                         <button type="submit" value="Check Availability">
-                            Book Now
+                          BOOK NOW
                         </button>
                     </div>
                 </form>

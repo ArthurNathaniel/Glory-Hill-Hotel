@@ -1,12 +1,10 @@
 <!doctype html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Glory Hills Hotel is a luxurious hotel situated in the heart of Cityville. 
-    With its stunning architecture, world-class amenities, and impeccable service, it offers a truly memorable 
-    experience for both leisure and business travelers.">
+    <meta name="description" content="Glory Hills Hotel is a luxurious hotel situated in the heart of Cityville. With its stunning architecture, world-class amenities, and impeccable service, it offers a truly memorable experience for both leisure and business travelers.">
     <meta name="keywords" content="Glory Hills Hotel, hotel, luxury, accommodation, Cityville">
     <title>Glory Hills Hotel</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
@@ -15,38 +13,66 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <?php include 'cdn.php' ?>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="photo-gallery.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
+
     <?php include 'navbar.php'; ?>
     <section>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/hero2.jpg" alt="">
+                    <img src="./images/room-two.jpg" alt="">
                     <div class="swiper-text">
-                        <h5>WELCOME TO GLORY HILLS HOTEL</h5>
-                        <h1>PHOTO GALLERY</h1>
-                        <p>
-                            A place to experience & enjoy the life
-                        </p>
+                        <h1>Contact Us</h1>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+
     <?php include './booking.php'; ?>
+    <section>
+        <div class="contact-grid">
+            <div class="three">
+                <h1><i class="fas fa-map-marker-alt"></i> </h1>
+                <h2>VISIT US</h2>
+                <p>
+                    Paul Adjei Duah Dr, Kumasi
+                </p>
+            </div>
+            <div class="three">
+                <h1><i class="fas fa-envelope"></i> </h1>
+                <h2>E-MAIL</h2>
+                <p>
+                    info@gloryhillshotel.com
+                </p>
+            </div>
+            <div class="three">
+                <h1><i class="fas fa-phone"></i></h1>
+                <h2>CALL US</h2>
+                <p>
+                    <a href="tel:0200111226" style="color: #000;">020 011 1226</a>
+                </p>
+            </div>
+        </div>
+    </section>
 
-    <?php include './gallery.php'; ?>
+    <section>
+        <div class="contact-c">
+            <div class="contactt">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.7791137971344!2d-1.6372378254033648!3d6.674267621393786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb9740ec9503db%3A0xb5c9da4102041bf!2sGlory%20Hill%20Hotel!5e0!3m2!1sen!2sgh!4v1686774425465!5m2!1sen!2sgh" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
 
+
+    <?php include 'testimony.php'; ?>
     <section>
         <?php include 'footer.php'; ?>
     </section>
-    <!-- lightbox Script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
-
     <!-- <script src="index.js"></script> -->
     <script>
         const roomImgs = document.querySelectorAll('.room-img');
@@ -103,11 +129,12 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
+            speed: 8000,
             loop: true,
             spaceBetween: 30,
             centeredSlides: true,
             autoplay: {
-                delay: 2500,
+                delay: 4500,
                 disableOnInteraction: false
             },
             pagination: {

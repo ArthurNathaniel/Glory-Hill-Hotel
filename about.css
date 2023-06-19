@@ -14,7 +14,7 @@
 
 h1 {
     font-family: 'Playfair Display', serif;
-.fact-grid
+
 }
 
 .fact-grid {
@@ -29,4 +29,16 @@ h1 {
 }
 .testimony{
     padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1192px) {
+    .about{
+        margin-top: 600px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fact-grid{
+        display: block;
+    }
 }

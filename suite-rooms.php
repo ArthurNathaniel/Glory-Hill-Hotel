@@ -23,7 +23,7 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/room-one.jpg" alt="">
+                    <img src="./images/hero-one.jpg" alt="">
                     <div class="swiper-text">
 
                         <h1>Suite Rooms</h1>
@@ -50,19 +50,25 @@
                 <div class="swiper mySwiper2 ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-one.jpg" alt="">
+                            <img src="./images/suite-room-01.jpg" alt="">
+                        </div>
+                        <!-- <div class="swiper-slide rooms-swiper">
+                            <img src="./images/suite-room-02.jpg" alt="">
+                        </div> -->
+                        <!-- <div class="swiper-slide rooms-swiper">
+                            <img src="./images/suite-room-03.jpg" alt="">
+                        </div> -->
+                        <div class="swiper-slide rooms-swiper">
+                            <img src="./images/suite-room-04.jpg" alt="">
+                        </div>
+                        <!-- <div class="swiper-slide rooms-swiper">
+                            <img src="./images/suite-room-05.jpg" alt="">
+                        </div> -->
+                        <div class="swiper-slide rooms-swiper">
+                            <img src="./images/suite-room-06.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-two.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-three.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-four.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-five.jpg" alt="">
+                            <img src="./images/suite-room-07.jpg" alt="">
                         </div>
                     </div>
                     <div class="amount">
@@ -108,7 +114,7 @@
         <div class="amenities">
             <h1>Amenities</h1>
             <div class="container">
-                <div class="row">
+                <div class="row g-0">
                     <div class="col-sm-6">
                         <ul class="list-unstyled">
                             <li><i class="fa-solid fa-circle-check"></i> King size bed</li>
@@ -132,7 +138,7 @@
         </div>
     </section>
 
-  <?php include 'testimony.php'; ?>
+    <?php include 'testimony.php'; ?>
 
     <section>
         <?php include 'footer.php'; ?>

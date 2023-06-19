@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
+        <a class="navbar-brand navbar-logo mobile " href="index.php">
 
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
@@ -15,7 +17,7 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Room Types<i class="fas fa-angle-down"></i>
+                         Room Types <i class="fas fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="suite-rooms.php">Suite Rooms</a></li>
@@ -29,7 +31,7 @@
                     </ul>
                 </li>
 
-                <a class="navbar-brand navbar-logo" href="index.php">
+                <a class="navbar-brand desktop navbar-logo" href="index.php">
 
                 </a>
 
@@ -44,7 +46,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="">Contact Us</a>
+                    <a class="nav-link" aria-current="page" href="contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>

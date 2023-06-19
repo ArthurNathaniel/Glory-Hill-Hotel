@@ -50,19 +50,13 @@
                 <div class="swiper mySwiper ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-one.jpg" alt="">
+                            <img src="./images/queen-size-04.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-two.jpg" alt="">
+                            <img src="./images/queen-size-02.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-three.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-four.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-five.jpg" alt="">
+                            <img src="./images/queen-size-06.jpg" alt="">
                         </div>
                     </div>
                     <div class="amount">
