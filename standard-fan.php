@@ -22,8 +22,8 @@
     <section>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="./images/room-five.jpg" alt="">
+                <div class="swiper-slide suite-bg">
+                    <img src="./images/standard-bg.jpg" alt="">
                     <div class="swiper-text">
 
                         <h1>Standard with Fan Room</h1>
@@ -50,19 +50,13 @@
                 <div class="swiper mySwiper ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-one.jpg" alt="">
+                            <img src="./images/standard-01.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-two.jpg" alt="">
+                            <img src="./images/standard-02.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-three.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-four.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-five.jpg" alt="">
+                            <img src="./images/standard-04.jpg" alt="">
                         </div>
                     </div>
                     <div class="amount">
@@ -193,12 +187,10 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
-            speed: 8000,
             loop: true,
             spaceBetween: 30,
             centeredSlides: true,
             autoplay: {
-                delay: 4500,
                 disableOnInteraction: false
             },
             pagination: {

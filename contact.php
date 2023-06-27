@@ -22,8 +22,8 @@
     <section>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="./images/room-two.jpg" alt="">
+                <div class="swiper-slide suite-bg">
+                    <img src="./images/contact-bg.jpg" alt="">
                     <div class="swiper-text">
                         <h1>Contact Us</h1>
                     </div>

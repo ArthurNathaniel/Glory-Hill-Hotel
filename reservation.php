@@ -26,11 +26,8 @@
                 <div class="swiper-slide">
                     <img src="./images/hero2.jpg" alt="">
                     <div class="swiper-text">
-                        <h5>WELCOME TO GLORY HILLS HOTEL</h5>
                         <h1>RESERVATION</h1>
-                        <p>
-                            A place to experience & enjoy the life
-                        </p>
+                       
                     </div>
                 </div>
             </div>
@@ -44,7 +41,7 @@
             </div>
 
             <div class="reservation-grid">
-                <div class="reservation-suite" style="background-image:url(./images/room-one.jpg);">
+                <div class="reservation-suite" style="background-image:url(./images/suit_4.jpg);">
                 </div>
                 <div class="reservation-suite-title">
                     <h2>Suite Rooms</h2>
@@ -70,7 +67,7 @@
             </div>
 
             <div class="reservation-grid">
-                <div class="reservation-suite" style="background-image:url(./images/room-two.jpg);">
+                <div class="reservation-suite" style="background-image:url(./images/queen_5.jpg);">
                 </div>
                 <div class="reservation-suite-title">
                     <h2>Queen Size Rooms</h2>
@@ -96,7 +93,7 @@
             </div>
 
             <div class="reservation-grid">
-                <div class="reservation-suite" style="background-image:url(./images/room-three.jpg);">
+                <div class="reservation-suite" style="background-image:url(./images/standard-with-ac5.jpg);">
                 </div>
                 <div class="reservation-suite-title">
                     <h2>Standard with A/C Rooms</h2>
@@ -148,7 +145,7 @@
             </div>
 
             <div class="reservation-grid">
-                <div class="reservation-suite" style="background-image:url(./images/room-five.jpg);">
+                <div class="reservation-suite" style="background-image:url(./images/standard3.jpg);">
                 </div>
                 <div class="reservation-suite-title">
                     <h2>Standard with Fan Rooms</h2>

@@ -23,16 +23,16 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide suite-bg">
-                    <img src="./images/standard-ac-bg.jpg" alt="">
+                    <img src="./images/queen-bg.jpg" alt="">
                     <div class="swiper-text">
 
-                        <h1>Standard with A/C </h1>
+                        <h1>Queen Size</h1>
 
 
                         <ul class="breadcrumb">
                             <li><a href="index.php">Home</a></li>
                             <li>Our Room Type</li>
-                            <li>Standard with A/C Rooms</li>
+                            <li>Queen Size</li>
                         </ul>
 
                     </div>
@@ -42,7 +42,7 @@
         </div>
     </section>
 
-    <?php include 'booking.php'; ?>
+    <?php include './booking.php'; ?>
 
     <section>
         <div class="room-slide">
@@ -50,19 +50,19 @@
                 <div class="swiper mySwiper ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/standard-ac-01.jpg" alt="">
+                            <img src="./images/queen-01.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/standard-ac-02.jpg" alt="">
+                            <img src="./images/queen-02.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/standard-ac-03.jpg" alt="">
+                            <img src="./images/queen-03.jpg" alt="">
                         </div>
                     </div>
                     <div class="amount">
                         <h1>
                             START FROM
-                            <span>GH₵ 230.00 </span>
+                            <span>GH₵ 300.00 </span>
                             <b> / PER NIGHT</b>
                         </h1>
                     </div>
@@ -80,28 +80,15 @@
         <div class="description">
             <h1>Description</h1>
             <p>
-                Welcome to our Standard Room, where comfort and convenience come together. This room features a
-                cozy standard size bed, providing a comfortable space for a restful sleep.
+                Welcome to our cozy room featuring a comfortable queen size bed, perfect for a restful night's sleep. Stay cool and refreshed with the air conditioner that maintains a pleasant temperature throughout your stay.
                 <br>
-                Stay cool and relaxed with the air conditioner, ensuring a pleasant temperature throughout your
-                stay.
+                The attached washroom offers convenience and privacy, equipped with essential amenities to cater to your needs. A spacious wardrobe is available to neatly store your belongings and keep your room organized.
                 <br>
-                The attached washroom offers convenience and privacy, equipped with all the necessary amenities
-                for your comfort.
+                For your convenience, a refrigerator is provided to store and preserve your food and beverages. The room also includes a table and chair set, creating a functional workspace or a comfortable spot for enjoying meals.
                 <br>
-                A spacious wardrobe is provided, allowing you to neatly organize your belongings and keep your
-                room tidy during your stay.
+                Unwind and relax as you watch your favorite shows on the TV, offering a range of entertainment options for your enjoyment.
                 <br>
-                For your convenience, a refrigerator is available to store and preserve your food and beverages.
-                <br>
-                The room also includes a table and chair set, creating a comfortable workspace or a cozy spot
-                for enjoying meals in the privacy of your room.
-                <br>
-                Unwind and enjoy your favorite shows on the TV, providing a range of entertainment options for
-                your leisure time.
-                <br>
-                Experience a delightful stay in our Standard Room, where every detail is designed to ensure your
-                comfort and satisfaction.
+                Experience comfort and convenience in our thoughtfully designed room, where you'll find everything you need for a pleasant stay.
             </p>
         </div>
     </section>
@@ -114,7 +101,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <ul class="list-unstyled">
-                            <li><i class="fa-solid fa-circle-check"></i> Standard Size Bed</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Queen Size Bed</li>
                             <li><i class="fa-solid fa-circle-check"></i> Air Conditioner</li>
                             <li><i class="fa-solid fa-circle-check"></i> Washroom</li>
                         </ul>

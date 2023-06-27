@@ -26,11 +26,7 @@
                 <div class="swiper-slide">
                     <img src="./images/hero2.jpg" alt="">
                     <div class="swiper-text">
-                        <h5>WELCOME TO GLORY HILLS HOTEL</h5>
                         <h1>PHOTO GALLERY</h1>
-                        <p>
-                            A place to experience & enjoy the life
-                        </p>
                     </div>
                 </div>
             </div>

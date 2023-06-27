@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 15%;
-    margin-top: 180px;
+    /* margin-top: 180px; */
 }
 
 .one{
@@ -19,6 +19,11 @@
     margin-bottom: 50px;
     border: 10px solid #eeeeee;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.first{
+    margin-top: 180px;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 30px;
 }
 @media only screen and (max-width: 1192px) {
     .gallery{
