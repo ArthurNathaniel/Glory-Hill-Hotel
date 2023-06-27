@@ -24,7 +24,7 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/hero2.jpg" alt="">
+                    <img src="./images/bg.jpg" alt="">
                     <div class="swiper-text">
                         <h1>PHOTO GALLERY</h1>
                     </div>
