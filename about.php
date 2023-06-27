@@ -89,10 +89,7 @@
                 needs of our guests. From spacious suites to cozy single rooms, each accommodation option is
                 designed to provide a relaxing and rejuvenating ambiance.
                 <br>
-                Indulge in our world-class amenities, including a state-of-the-art fitness center, rejuvenating
-                spa, and exquisite dining options. Whether you're looking to unwind by the poolside, host a
-                successful business conference, or explore the local attractions, we have you covered.
-                <br>
+              
                 At Glory Hills Hotel, we prioritize sustainability and eco-friendly practices. We are dedicated
                 to reducing our environmental impact while ensuring the highest standards of comfort and luxury
                 for our guests.

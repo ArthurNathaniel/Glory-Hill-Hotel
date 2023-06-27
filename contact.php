@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,14 +40,16 @@
                 <h1><i class="fas fa-map-marker-alt"></i> </h1>
                 <h2>VISIT US</h2>
                 <p>
-                    Paul Adjei Duah Dr, Kumasi
+                    <a href="" style="color: #000;"> Paul Adjei Duah Dr, Kumasi</a>
+
                 </p>
             </div>
             <div class="three">
                 <h1><i class="fas fa-envelope"></i> </h1>
                 <h2>E-MAIL</h2>
                 <p>
-                    info@gloryhillshotel.com
+                    <a href="mailto:info@gloryhillshotel.com" style="color: #000;">info@gloryhillshotel.com</a>
+
                 </p>
             </div>
             <div class="three">
