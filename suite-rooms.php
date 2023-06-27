@@ -22,8 +22,8 @@
     <section>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="./images/hero-one.jpg" alt="">
+                <div class="swiper-slide suite-bg">
+                    <img src="./images/suite-bg.jpg" alt="">
                     <div class="swiper-text">
 
                         <h1>Suite Rooms</h1>
@@ -52,23 +52,14 @@
                         <div class="swiper-slide rooms-swiper">
                             <img src="./images/suite-room-01.jpg" alt="">
                         </div>
-                        <!-- <div class="swiper-slide rooms-swiper">
+                        <div class="swiper-slide rooms-swiper">
                             <img src="./images/suite-room-02.jpg" alt="">
-                        </div> -->
-                        <!-- <div class="swiper-slide rooms-swiper">
+                        </div>
+                        <div class="swiper-slide rooms-swiper">
                             <img src="./images/suite-room-03.jpg" alt="">
-                        </div> -->
+                        </div>
                         <div class="swiper-slide rooms-swiper">
                             <img src="./images/suite-room-04.jpg" alt="">
-                        </div>
-                        <!-- <div class="swiper-slide rooms-swiper">
-                            <img src="./images/suite-room-05.jpg" alt="">
-                        </div> -->
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/suite-room-06.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/suite-room-07.jpg" alt="">
                         </div>
                     </div>
                     <div class="amount">

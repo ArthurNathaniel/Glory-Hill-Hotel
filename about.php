@@ -23,10 +23,9 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/hero.jpg" alt="">
+                    <img src="./images/building-about.png" alt="">
                     <div class="swiper-text">
                         <h3>ABOUT US</h3>
-                        <h1>A place to experience enjoy the life</h1>
                     </div>
                 </div>
 

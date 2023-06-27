@@ -37,7 +37,7 @@
     <section>
         <div class="contact-grid">
             <div class="three">
-                <h1><i class="fas fa-map-marker-alt"></i> </h1>
+                <h1><i class="fas fa-map-marker-alt fa-beat"></i> </h1>
                 <h2>VISIT US</h2>
                 <p>
                     <a href="" style="color: #000;"> Paul Adjei Duah Dr, Kumasi</a>
@@ -45,7 +45,7 @@
                 </p>
             </div>
             <div class="three">
-                <h1><i class="fas fa-envelope"></i> </h1>
+                <h1><i class="fas fa-envelope fa-beat"></i> </h1>
                 <h2>E-MAIL</h2>
                 <p>
                     <a href="mailto:info@gloryhillshotel.com" style="color: #000;">info@gloryhillshotel.com</a>
@@ -53,7 +53,7 @@
                 </p>
             </div>
             <div class="three">
-                <h1><i class="fas fa-phone"></i></h1>
+                <h1><i class="fas fa-phone fa-beat"></i></h1>
                 <h2>CALL US</h2>
                 <p>
                     <a href="tel:0200111226" style="color: #000;">020 011 1226</a>

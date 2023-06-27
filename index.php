@@ -49,7 +49,7 @@
             </div>
             <div class="about-grid">
                 <div class="about-image">
-                    <img src="https://placehold.jp/450x450.png" alt="">
+                    <img src="images/about-reviews.png" alt="">
                 </div>
                 <div class="about-text">
                     <h1>A best place to enjoy your life</h1>
@@ -75,7 +75,7 @@
                 <h4>DISCOVER OUR ROOMS</h4>
                 <h1>Luxury interior</h1>
                 <div class="rooms-detial">
-                    <div class="room-img" style=" background-image: url(./images/room-one.jpg);">
+                    <div class="room-img" style=" background-image: url(./images/suit_4.jpg);">
                     </div>
                     <div class=" room-type">
                         <h3>Suite Rooms</h3>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="rooms-detial">
-                    <div class="room-img" style=" background-image: url(./images/room-two.jpg);">
+                    <div class="room-img" style=" background-image: url(./images/queen_5.jpg);">
                     </div>
                     <div class="room-type">
                         <h3>Queen Size Rooms</h3>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="rooms-detial">
-                    <div class="room-img" style=" background-image: url(./images/room-three.jpg);">
+                    <div class="room-img" style=" background-image: url(./images/standard-with-ac5.jpg);">
                     </div>
                     <div class="room-type">
                         <h3>Standard with A/C Rooms</h3>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div class="rooms-detial">
-                    <div class="room-img" style=" background-image: url(./images/room-five.jpg);">
+                    <div class="room-img" style=" background-image: url(./images/standard3.jpg);">
                     </div>
                     <div class="room-type">
                         <h3>Standard with Fan Rooms</h3>
