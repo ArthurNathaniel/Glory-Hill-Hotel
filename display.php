@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -96,7 +97,7 @@
                     <p><strong>Guests:</strong> <span id="guest-result"></span></p>
                     <p><strong>Room Type:</strong> <span id="room-type-result"></span></p>
                     <p><strong>Total Price:</strong> GH₵<span id="total-price"></span></p>
-                    <button id="confirm-booking" >
+                    <button id="confirm-booking">
                         CONFIRM BOOKING
                     </button>
                 </div>
@@ -105,7 +106,51 @@
 
 
     </section>
-<script src="./confirm-booking.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const confirmBookingBtn = document.getElementById('confirm-booking');
+
+        confirmBookingBtn.addEventListener('click', function() {
+            console.log('Booking');
+
+            const checkIn = document.getElementById('check-in-result').textContent;
+            const checkOut = document.getElementById('check-out-result').textContent;
+            const name = document.getElementById('name-result').textContent;
+            const number = document.getElementById('number-result').textContent;
+            const guests = document.getElementById('guest-result').textContent;
+            const roomType = document.getElementById('room-type-result').textContent;
+            const totalPrice = document.getElementById('total-price').textContent;
+
+            var myHeaders = new Headers();
+            myHeaders.append("Content-Type", "application/json");
+            myHeaders.append("Accept", "application/json");
+
+            var raw = JSON.stringify({
+                "name": name,
+                "phone_number": number,
+                "number_of_guests": guests,
+                "arrival_date": checkIn,
+                "departure_date": checkOut,
+                "room_type": roomType
+            });
+
+            var requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: raw,
+                redirect: 'follow'
+            };
+
+            fetch("https://tlgghana.hotelipad.com/api/sr", requestOptions)
+                .then(response => alert('"Reservation request made successfully...our customer service personnel would contact you shortly.'))
+                // .then(text => console.log(text.text()))
+                .catch(error => console.log('error', error));
+        });
+    </script>
+
+    <script src="./index.js"></script>
     <script>
         // Retrieve the values from URL parameters
         var urlParams = new URLSearchParams(window.location.search);
@@ -158,7 +203,7 @@
     <section>
         <?php include 'footer.php'; ?>
     </section>
-    <script src="index.js"></script>
+    <script src="confirm-booking.js"></script>
     <script>
         const roomImgs = document.querySelectorAll('.room-img');
         const roomsDisplay = document.querySelector('.rooms-display');
@@ -173,7 +218,7 @@
             });
         });
     </script>
-    
+
 
     <script>
         flatpickr("#check-in", {
