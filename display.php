@@ -23,13 +23,9 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/hero.jpg" alt="">
+                    <img src="./images/building-3.jpg" alt="">
                     <div class="swiper-text">
-                       
                         <h1>BOOK NOW</h1>
-                        <p>
-                            A place to experience & enjoy the life
-                        </p>
                     </div>
                 </div>
             </div>
@@ -82,7 +78,7 @@
 
                     <div class="col-12">
                         <button type="submit" value="Check Availability">
-                          BOOK NOW
+                            BOOK NOW
                         </button>
                     </div>
                 </form>
@@ -100,13 +96,16 @@
                     <p><strong>Guests:</strong> <span id="guest-result"></span></p>
                     <p><strong>Room Type:</strong> <span id="room-type-result"></span></p>
                     <p><strong>Total Price:</strong> GH₵<span id="total-price"></span></p>
+                    <button id="confirm-booking" >
+                        CONFIRM BOOKING
+                    </button>
                 </div>
             </div>
         </div>
 
 
     </section>
-
+<script src="./confirm-booking.js"></script>
     <script>
         // Retrieve the values from URL parameters
         var urlParams = new URLSearchParams(window.location.search);
@@ -174,6 +173,7 @@
             });
         });
     </script>
+    
 
     <script>
         flatpickr("#check-in", {

@@ -34,8 +34,8 @@
                     <option value="Single with A/C Rooms, 160">Single with A/C Rooms</option>
                     <option value="Standard with Fan Rooms, 150">Standard with Fan Rooms</option>
                     <option value="Single with Fan Rooms, 120">Single with Fan Rooms</option>
-                    <option value="Side Apartment, 120">Side Apartment</option>
-                </select>
+                    <!-- <option value="Side Apartment, 120">Side Apartment</option> -->
+                </select> 
             </div>
 
             <div class="ava">

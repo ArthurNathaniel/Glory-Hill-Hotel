@@ -28,14 +28,8 @@
                 </p>
             </div>
             <div class="swiper-wrapper">
+                <video src="./images/hero.mp4" type="video/mp4" width="1000"    height="600"  autoplay loop muted>
 
-                <div class="swiper-slide ani">
-                    <img src="./images/hero-one.jpg" alt="">
-
-                </div>
-                <div class="swiper-slide ani">
-                    <img src="./images/hero-two.jpg" alt="">
-                </div>
             </div>
         </div>
     </section>
@@ -140,7 +134,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="rooms-detial">
+                <!-- <div class="rooms-detial">
                     <div class="room-img" style=" background-image: url(./images/room-seven.jpg);">
                     </div>
                     <div class="room-type">
@@ -150,7 +144,7 @@
                             <a href="side-apartment.php">BOOK NOW</a>
                         </button>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="rooms-display">
 

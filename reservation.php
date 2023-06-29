@@ -24,7 +24,7 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="./images/hero2.jpg" alt="">
+                    <img src="./images/building-3.jpg" alt="">
                     <div class="swiper-text">
                         <h1>RESERVATION</h1>
                        
@@ -197,7 +197,7 @@
                 </div>
             </div>
 
-            <div class="reservation-grid">
+            <!-- <div class="reservation-grid">
                 <div class="reservation-suite" style="background-image:url(./images/room-seven.jpg);">
                 </div>
                 <div class="reservation-suite-title">
@@ -221,7 +221,7 @@
                         <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
                     </button>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>

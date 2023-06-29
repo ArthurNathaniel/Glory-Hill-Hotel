@@ -90,6 +90,11 @@ body {
 
 }
 
+.swiper-wrapper video{
+  width: 100% !important;
+    object-fit: cover;
+}
+
 /* .ani {
     position: relative;
     overflow: hidden;

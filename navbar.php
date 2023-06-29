@@ -26,9 +26,9 @@
                         <li><a class="dropdown-item" href="single-ac.php">Single with A/C Rooms</a></li>
                         <li><a class="dropdown-item" href="standard-fan.php">Standard with Fan Rooms</a></li>
                         <li><a class="dropdown-item" href="single-fan.php">Single with Fan Rooms</a></li>
-                        <li><a class="dropdown-item" href="side-apartment.php">Side Apartment</a></li>
+                        <!-- <li><a class="dropdown-item" href="side-apartment.php">Side Apartment</a></li> -->
 
-                    </ul>
+                    </ul> 
                 </li>
 
                 <a class="navbar-brand desktop navbar-logo" href="index.php">
