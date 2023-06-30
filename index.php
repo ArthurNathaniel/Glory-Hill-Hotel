@@ -43,7 +43,7 @@
             </div>
             <div class="about-grid">
                 <div class="about-image">
-                    <img src="https://cdn.discordapp.com/attachments/1063445259750752256/1124034365928783932/GLORY.png" alt="">
+                    <img src="https://cdn.discordapp.com/attachments/1063445259750752256/1124035576987914370/GLORY.png" alt="">
                 </div>
                 <div class="about-text">
                     <h1>A best place to enjoy your life</h1>
