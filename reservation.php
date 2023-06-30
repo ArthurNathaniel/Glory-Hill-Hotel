@@ -119,7 +119,7 @@
             </div>
 
             <div class="reservation-grid">
-                <div class="reservation-suite" style="background-image:url(./images/room-four.jpg);">
+                <div class="reservation-suite" style="background-image:url(./images/single-bed-with-ac.jpg);">
                 </div>
                 <div class="reservation-suite-title">
                     <h2>Single with A/C Rooms</h2>
@@ -172,7 +172,7 @@
 
 
             <div class="reservation-grid">
-                <div class="reservation-suite" style="background-image:url(./images/room-six.jpg);">
+                <div class="reservation-suite" style="background-image:url(./images/single-bed-with-fan.jpg);">
                 </div>
                 <div class="reservation-suite-title">
                     <h2>Single with Fan Rooms</h2>
