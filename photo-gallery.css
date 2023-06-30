@@ -6,7 +6,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 15%;
-    /* margin-top: 180px; */
 }
 
 .one{
@@ -25,10 +24,19 @@
         font-family: 'Playfair Display', serif;
         margin-bottom: 30px;
 }
+.second{
+    font-family: 'Playfair Display', serif;
+        margin-bottom: 30px;
+}
 @media only screen and (max-width: 1192px) {
     .gallery{
         margin-top: 600px;
         display: block;
         padding-block: 50px;
     }
+        .gallery2{
+            margin-top: 0;
+            display: block;
+            padding-block: 50px;
+        }
 }

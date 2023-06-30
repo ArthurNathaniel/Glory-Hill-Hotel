@@ -22,8 +22,8 @@
     <section>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="./images/room-six.jpg" alt="">
+                <div class="swiper-slide suite-bg">
+                    <img src="./images/single-ac-bg.png" alt="">
                     <div class="swiper-text">
 
                         <h1>Single with Fan Room</h1>
@@ -49,20 +49,15 @@
                 <div class="swiper mySwiper ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-one.jpg" alt="">
+                            <img src="./images/single-bed-with-fan.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-two.jpg" alt="">
+                            <img src="./images/single-bed-with-fan-.jpg" alt="">
                         </div>
                         <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-three.jpg" alt="">
+                            <img src="./images/single-with-fan.jpg" alt="">
                         </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-four.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide rooms-swiper">
-                            <img src="./images/room-five.jpg" alt="">
-                        </div>
+
                     </div>
                     <div class="amount">
                         <h1>
@@ -185,12 +180,12 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
-            speed: 8000,
+            
             loop: true,
             spaceBetween: 30,
             centeredSlides: true,
             autoplay: {
-                delay: 4500,
+           
                 disableOnInteraction: false
             },
             pagination: {

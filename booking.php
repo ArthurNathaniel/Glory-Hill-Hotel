@@ -12,7 +12,7 @@
             <div class="check">
                 <label>PHONE NUMBER</label>
                 <input type="number" min="0" id="number" name="number" placeholder="Enter your phone number" required>
-           
+
             </div>
             <div class="check">
                 <label for="guest">GUEST</label>
@@ -35,7 +35,7 @@
                     <option value="Standard with Fan Rooms, 150">Standard with Fan Rooms</option>
                     <option value="Single with Fan Rooms, 120">Single with Fan Rooms</option>
                     <!-- <option value="Side Apartment, 120">Side Apartment</option> -->
-                </select> 
+                </select>
             </div>
 
             <div class="ava">

@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="rooms-detial">
-                    <div class="room-img" style=" background-image: url(./images/room-four.jpg);">
+                    <div class="room-img" style=" background-image: url(./images/single-bed-with-ac.jpg);">
                     </div>
                     <div class="room-type">
                         <h3>Single bed with A/C Rooms</h3>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
                 <div class="rooms-detial">
-                    <div class="room-img" style=" background-image: url(./images/room-six.jpg);">
+                    <div class="room-img" style=" background-image: url(./images/single-bed-with-fan.jpg);">
                     </div>
                     <div class="room-type">
                         <h3>Single bed with Fan Rooms</h3>
