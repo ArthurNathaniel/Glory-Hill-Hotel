@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 
 <head>
@@ -7,12 +7,26 @@
     <meta name="description" content="Glory Hills Hotel is a luxurious hotel situated in the heart of Cityville. With its stunning architecture, world-class amenities, and impeccable service, it offers a truly memorable experience for both leisure and business travelers.">
     <meta name="keywords" content="Glory Hills Hotel, hotel, luxury, accommodation, Cityville">
     <title>Glory Hills Hotel</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <?php include 'cdn.php' ?>
+?    <link rel="stylesheet" href="style.css">
+</head> -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glory Hills Hotel is a luxurious hotel situated in the heart of Cityville. With its stunning architecture, world-class amenities, and impeccable service, it offers a truly memorable experience for both leisure and business travelers.">
+    <meta name="keywords" content="Glory Hills Hotel, hotel, luxury, accommodation, Cityville">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Glory Hills Hotel</title>
+    <?php include 'cdn.php'; ?>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="event.css">
 </head>
 
 <body>
@@ -75,7 +89,7 @@
                         <h3>Suite Rooms</h3>
                         GH₵ 400.00 per night
                         <button>
-                            <a href="suite-rooms.php">BOOK NOW</a>
+                            <a href="suite-rooms.php">EXPLORE</a>
                         </button>
                     </div>
                 </div>
@@ -86,7 +100,7 @@
                         <h3>Queen Size Rooms</h3>
                         GH₵ 300.00 per night
                         <button>
-                            <a href="queen-size.php">BOOK NOW</a>
+                            <a href="queen-size.php">EXPLORE</a>
                         </button>
                     </div>
                 </div>
@@ -97,7 +111,7 @@
                         <h3>Standard with A/C Rooms</h3>
                         GH₵ 230.00 per night
                         <button>
-                            <a href="standard-ac.php">BOOK NOW</a>
+                            <a href="standard-ac.php">EXPLORE</a>
                         </button>
                     </div>
                 </div>
@@ -108,7 +122,7 @@
                         <h3>Single bed with A/C Rooms</h3>
                         GH₵ 160.00 per night
                         <button>
-                            <a href="single-ac.php">BOOK NOW</a>
+                            <a href="single-ac.php">EXPLORE</a>
                         </button>
                     </div>
                 </div>
@@ -119,7 +133,7 @@
                         <h3>Standard with Fan Rooms</h3>
                         GH₵ 150.00 per night
                         <button>
-                            <a href="standard-fan.php">BOOK NOW</a>
+                            <a href="standard-fan.php">EXPLORE</a>
                         </button>
                     </div>
                 </div>
@@ -130,7 +144,7 @@
                         <h3>Single bed with Fan Rooms</h3>
                         GH₵ 120.00 per night
                         <button>
-                            <a href="single-fan.php">BOOK NOW</a>
+                            <a href="single-fan.php">EXPLORE</a>
                         </button>
                     </div>
                 </div>

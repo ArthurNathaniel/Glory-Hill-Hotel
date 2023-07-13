@@ -5,15 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Glory Hills Hotel is a luxurious hotel situated in the heart of Cityville. With its stunning architecture, world-class amenities, and impeccable service, it offers a truly memorable experience for both leisure and business travelers.">
+    <meta name="description" content="Glory Hills Hotel is a luxurious hotel situated in the heart of Cityville. With its stunning architecture, world-class amenities, and impeccable service, it offers a truly memorable experience for both leisure and business travelers.">
     <meta name="keywords" content="Glory Hills Hotel, hotel, luxury, accommodation, Cityville">
     <title>Glory Hills Hotel</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <?php include 'cdn.php' ?>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="display.css">
@@ -37,65 +35,36 @@
 
     <section>
         <div class="display-grid">
-            <div class="display-form">
-                <form action="" class="formss">
-                    <div class="col-12">
-                        <label>CHECK IN & OUT:</label>
-                        <input type="date" class="form-control" id="check-in" name="check-in"
-                            placeholder="Check In & Out " required>
-                    </div>
-                    <div class="col-12">
-                        <label>NAME:</label>
-                        <br>
-                        <input type="text" placeholder="Enter your name" id="name" name="name" required>
-                    </div>
-                    <div class="col-12">
-                        <label>PHONE NUMBER:</label>
-                        <br>
-                        <input type="number" min="0" id="number" name="number" placeholder="Enter your phone number"
-                            required>
-                    </div>
-                    <div class="col-12">
-                        <label for="guest">GUEST:</label>
-                        <br>
-                        <select id="guest" name="guest" required>
-                            <option value="" disabled selected hidden>Number of Guest</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <label for="room-type">ROOM TYPE:</label>
-                        <br>
-                        <select id="room-type" name="room-type" required>
-                            <option value="" disabled selected hidden>Select Room Type</option>
-                            <option value="Suite Rooms, 400">Suite Rooms</option>
-                            <option value="Queen Size Rooms, 300">Queen Size Rooms</option>
-                            <option value="Standard with A/C Rooms, 230">Standard with A/C Rooms</option>
-                            <option value="Single with A/C Rooms, 160">Single with A/C Rooms</option>
-                            <option value="Standard with Fan Rooms, 150">Standard with Fan Rooms</option>
-                            <option value="Single with Fan Rooms, 120">Single with Fan Rooms</option>
-                            <option value="Side Apartment, 120">Side Apartment</option>
-                        </select>
-                    </div>
 
-                    <div class="col-12">
-                        <button id="bookbtn" type="submit" value="Check Availability">
-                            BOOK NOW
-                        </button>
-                    </div>
-                </form>
-            </div>
 
             <style>
+                .display-grid {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    align-self: center;
+                }
+
+                .display-text {
+                    width: 50%;
+                }
+
                 .booking-display {
                     display: block;
                     transition: 5s;
                 }
+
+                #confirm-booking{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    align-self: center;
+                    width: 100%;
+                }
             </style>
-            <div class="display-text hidden">
+            <div class="display-text">
 
 
                 <h2>Booking Details</h2>
@@ -118,27 +87,23 @@
 
     </section>
 
-
     <script>
         // Get the button element with the ID "bookbtn"
         var bookbtn = document.getElementById("bookbtn");
         var display_text = document.querySelector(".display-text");
 
         // Add a click event listener to the button
-        bookbtn.addEventListener("click", function (e) {
-            e.preventDefault();
+        bookbtn.addEventListener("click", function() {
             // Add the CSS class "bookbtn" to the button
             display_text.classList.add("booking-display");
         });
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
-        integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         const confirmBookingBtn = document.getElementById('confirm-booking');
 
-        confirmBookingBtn.addEventListener('click', function () {
+        confirmBookingBtn.addEventListener('click', function() {
             console.log('Booking');
 
             const checkIn = document.getElementById('check-in-result').textContent;
@@ -304,18 +269,16 @@
         });
     </script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             var zoomDiv = document.querySelector('.swiper-slide');
 
-            zoomDiv.addEventListener('click', function () {
+            zoomDiv.addEventListener('click', function() {
                 this.classList.toggle('zoomed');
             });
         });
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>

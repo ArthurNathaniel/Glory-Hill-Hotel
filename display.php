@@ -78,18 +78,26 @@
                     </div>
 
                     <div class="col-12">
-                        <button type="submit" value="Check Availability">
+                        <button id="bookbtn" type="submit" value="Check Availability">
                             BOOK NOW
                         </button>
                     </div>
                 </form>
             </div>
-            <div class="display-text">
+
+            <style>
+                .booking-display {
+                    display: block;
+                    transition: 5s;
+                }
+            </style>
+            <div class="display-text hidden">
 
 
                 <h2>Booking Details</h2>
 
                 <div class="mt-5">
+                    <!-- Add the missing HTML elements -->
                     <p><strong>Check-in:</strong> <span id="check-in-result"></span></p>
                     <p><strong>Check-out:</strong> <span id="check-out-result"></span></p>
                     <p><strong>Name:</strong> <span id="name-result"></span></p>
@@ -97,6 +105,7 @@
                     <p><strong>Guests:</strong> <span id="guest-result"></span></p>
                     <p><strong>Room Type:</strong> <span id="room-type-result"></span></p>
                     <p><strong>Total Price:</strong> GH₵<span id="total-price"></span></p>
+
                     <button id="confirm-booking">
                         CONFIRM BOOKING
                     </button>
@@ -107,6 +116,19 @@
 
     </section>
 
+
+    <script>
+        // Get the button element with the ID "bookbtn"
+        var bookbtn = document.getElementById("bookbtn");
+        var display_text = document.querySelector(".display-text");
+
+        // Add a click event listener to the button
+        bookbtn.addEventListener("click", function(e) {
+            e.preventDefault();
+            // Add the CSS class "bookbtn" to the button
+            display_text.classList.add("booking-display");
+        });
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
@@ -121,7 +143,7 @@
             const number = document.getElementById('number-result').textContent;
             const guests = document.getElementById('guest-result').textContent;
             const roomType = document.getElementById('room-type-result').textContent;
-            const totalPrice = document.getElementById('total-price').textContent;
+            const totalPrice = document.getElementById('total-price').innerText;
 
             var myHeaders = new Headers();
             myHeaders.append("Content-Type", "application/json");
@@ -169,7 +191,8 @@
         var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
 
         // Calculate the total price for the entire duration
-        var totalPrice = parseInt(roomType[1]) * nights;
+        var roomPrice = parseInt(roomType[1]);
+        var totalPrice = roomPrice * nights;
 
         // Calculate the price per night
         var pricePerNight = parseInt(roomType[1]);

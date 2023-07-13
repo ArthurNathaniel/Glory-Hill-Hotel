@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +20,14 @@
 
 <body>
     <?php include 'navbar.php'; ?>
-    <section>
+    <section id="the">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="./images/building-3.jpg" alt="">
                     <div class="swiper-text">
                         <h1>RESERVATION</h1>
-                       
+
                     </div>
                 </div>
             </div>
@@ -44,7 +44,9 @@
                 <div class="reservation-suite" style="background-image:url(./images/suit_4.jpg);">
                 </div>
                 <div class="reservation-suite-title">
-                    <h2>Suite Rooms</h2>
+                    <form action="">
+                        <h2>Suite Rooms</h2>
+                    </form>
                     <p> <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -60,9 +62,9 @@
                 </div>
 
                 <div class="reservation-button">
-                    <button type="submit">
-                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
-                    </button>
+                    <!-- <button type="submit"> -->
+                    <a href="#the" class="btn btn-success"> BOOK NOW </a>
+                    <!-- </button> -->
                 </div>
             </div>
 
@@ -86,9 +88,7 @@
                 </div>
 
                 <div class="reservation-button">
-                    <button type="submit">
-                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
-                    </button>
+                   <a href="#the" class="btn btn-success"> BOOK NOW </a>
                 </div>
             </div>
 
@@ -112,9 +112,7 @@
                 </div>
 
                 <div class="reservation-button">
-                    <button type="submit">
-                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
-                    </button>
+                   <a href="#the" class="btn btn-success"> BOOK NOW </a>
                 </div>
             </div>
 
@@ -138,9 +136,7 @@
                 </div>
 
                 <div class="reservation-button">
-                    <button type="submit">
-                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
-                    </button>
+                   <a href="#the" class="btn btn-success"> BOOK NOW </a>
                 </div>
             </div>
 
@@ -164,9 +160,7 @@
                 </div>
 
                 <div class="reservation-button">
-                    <button type="submit">
-                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
-                    </button>
+                   <a href="#the" class="btn btn-success"> BOOK NOW </a>
                 </div>
             </div>
 
@@ -191,9 +185,7 @@
                 </div>
 
                 <div class="reservation-button">
-                    <button type="submit">
-                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
-                    </button>
+                   <a href="#the" class="btn btn-success"> BOOK NOW </a>
                 </div>
             </div>
 
@@ -217,9 +209,7 @@
                 </div>
 
                 <div class="reservation-button">
-                    <button type="submit">
-                        <a href="display.php" style="text-decoration: none; color:#fff;"> BOOK NOW </a>
-                    </button>
+                   <a href="#the" class="btn btn-success"> BOOK NOW </a>
                 </div>
             </div> -->
 

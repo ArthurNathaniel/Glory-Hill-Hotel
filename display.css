@@ -64,6 +64,7 @@
     justify-content: center;
     height: 100%;
     padding: 0 5%;
+    padding-block: 50px;
 }
 
 .formss input,
@@ -87,12 +88,16 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-#confirm-booking{
-background-color: green;
-color: #fff;
-padding: 15px 35px;
-border: none;
-border-radius: 5px;
+#confirm-booking {
+    background-color: green;
+    color: #fff;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
 }
 
 
@@ -116,7 +121,9 @@ border-radius: 5px;
         padding-bottom: 50px;
         margin-bottom: 50px;
     }
-    .display-text h2{
+
+    .display-text h2 {
         font-size: 25px;
     }
+
 }

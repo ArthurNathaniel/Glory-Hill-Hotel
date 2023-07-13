@@ -1,5 +1,5 @@
     <section id="form">
-        <form action="display.php" method="get" class="form" onsubmit="calculateTotalPrice(event)">
+        <form action="show.php" method="get" id="bbb" class="form" onsubmit="calculateTotalPrice(event)">
 
             <div class="check">
                 <label>CHECK IN & OUT</label>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="ava">
-                <button type="submit" value="Check Availability">
+                <button type="submit"  value="Check Availability">
                     Book Now
                 </button>
             </div>
@@ -47,3 +47,20 @@
 
         </form>
     </section>
+    <!-- <style>
+        .booking-display {
+            display: block;
+            transition: 5s;
+        }
+    </style>
+    <script>
+        // Get the button element with the ID "bookbtn"
+        var bookbtn = document.getElementById("bookbtn");
+        var display_text = document.querySelector(".display-text");
+
+        // Add a click event listener to the button
+        bookbtn.addEventListener("click", function() {
+            // Add the CSS class "bookbtn" to the button
+            display_text.classList.add("booking-display");
+        });
+    </script> -->
